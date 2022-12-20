@@ -2,12 +2,12 @@ name: On Open PR Actions
 
 on:
   pull_request:
-    # types: [opened]
+    types: [opened]
 
 jobs:
   pr-stats:
     permissions: write-all
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Run pull request stats
         uses: amannn/action-semantic-pull-request@v4

@@ -2,7 +2,7 @@ name: On Open PR Actions
 
 on:
   pull_request:
-    # types: [opened]
+    types: [opened]
 
 jobs:
   pr-stats:
